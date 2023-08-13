@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user can CreateAccount",
+        "description": "",
+        "id": "this-is-a-create-account-feature-sprint1;verify-user-can-createaccount",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3890080100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open \u003c\"URL\"\u003e application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "CreateAccount.open_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151423900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Mousehover Signinlink",
+            "match": {
+              "location": "CreateAccount.click_Mousehover_Signinlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 702954300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Start here",
+            "match": {
+              "location": "CreateAccount.click_Start_here()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58322300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter FirstName LastName",
+            "match": {
+              "location": "CreateAccount.enter_FirstName_LastName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71322900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter Email",
+            "match": {
+              "location": "CreateAccount.enter_Email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121232400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter Password and Re-enter password",
+            "match": {
+              "location": "CreateAccount.enter_Password_and_Re_enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 575712400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Continue",
+            "match": {
+              "location": "CreateAccount.click_Continue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@jon1"
+          }
+        ]
+      }
+    ],
+    "name": "This is a Create Account feature Sprint1",
+    "description": "",
+    "id": "this-is-a-create-account-feature-sprint1",
+    "keyword": "Feature",
+    "uri": "CreateAccount.feature"
+  }
+]
